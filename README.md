@@ -9,12 +9,12 @@
 PropertyMethods is a small package that allows one to add computed
 properties to a struct by defining a `Val` specialized method for each
 property.  Unrelated properties no longer need to be enumerated in the
-conditioonal tree of a single `getproperty` method.
+conditional tree of a single `getproperty` method.
 
 Properties defined in this way will automatically be
 recognized by the struct's `propertynames` and `hasproperty` methods.
 
-This mackage also provide a macro to generate trampoline methods for
+This mackage also provides a macro to generate trampoline methods for
 the *Delegation* pattern.
 
 See the documentation linked above for details.
